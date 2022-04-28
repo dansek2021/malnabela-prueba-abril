@@ -1,0 +1,11 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+@import "../bases/mapas";
+
+header{
+    grid-area: header;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}

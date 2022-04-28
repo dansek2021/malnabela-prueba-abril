@@ -1,0 +1,12 @@
+$bisque: bisque;
+$beige: beige; 
+$color: aquamarine;
+$chocolate: chocolate;
+
+.border-menu{
+    border-bottom: 1px solid darken($color: bisque, $amount: 20%);
+    border-top: 1px solid lighten($beige, 20%);
+}
+.bg-nav{
+    background-color: $color;
+    &:hover{background-color: mix($color,$chocolate)}}

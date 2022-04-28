@@ -1,0 +1,188 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap");
+header {
+  grid-area: header;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* General */
+header {
+  grid-area: header;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.border-menu {
+  border-bottom: 1px solid #ffb55e;
+  border-top: 1px solid white;
+}
+
+.bg-nav {
+  background-color: aquamarine;
+}
+.bg-nav:hover {
+  background-color: #a9b479;
+}
+
+.redes-sociales ul, .floor, .navegacion, .intro, header .header-container, body .hijo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* General */
+* {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  min-height: 100vh;
+  grid-area: header;
+  grid-template-areas: "header header header" "section1 section1 section1" "footer footer footer";
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 1fr 2fr 1fr;
+  row-gap: 10px;
+  background-color: bisque;
+}
+body h1 {
+  font-size: 2em;
+  color: beige;
+  background-color: grey;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+}
+
+#seccion1 {
+  grid-area: section1;
+}
+
+.intro {
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.navegacion {
+  align-items: center;
+}
+
+.pagina {
+  padding: 10px;
+}
+
+/* Home */
+.title-home {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: #92278f;
+}
+
+.intro :hover {
+  color: aquamarine;
+  text-decoration: dotted;
+}
+
+.intro {
+  transition: all 0.3s ease-in-out;
+}
+
+.intro :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.foot {
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.list {
+  width: 200px;
+}
+
+.floor {
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 100;
+  height: auto;
+}
+
+.redes-sociales ul {
+  display: inline-block;
+  padding: 80px;
+  align-items: center;
+}
+
+.logoFacebook {
+  width: 40px;
+}
+
+/*Contacto*/
+.contenedor {
+  width: 100%;
+}
+.contenedor form {
+  margin: auto;
+  position: relative;
+  left: 50%;
+  right: 50%;
+}
+.contenedor form .contacto {
+  display: block;
+}
+.contenedor form .boton {
+  display: block;
+  cursor: pointer;
+}
+.contenedor form textarea {
+  resize: none;
+  width: 300px;
+  height: 200px;
+}
+
+div .contenedor {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Inicio*/
+
+/*# sourceMappingURL=style.css.map */

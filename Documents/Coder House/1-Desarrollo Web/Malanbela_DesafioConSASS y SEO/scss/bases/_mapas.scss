@@ -1,0 +1,18 @@
+$cliente-standard:(
+    bg-color-standard: grey
+    border-stardard: 1px solid black,
+    font-standard: 2 rem
+);
+$cliente-plantinum: (
+    bg-color-platinum: yellow,
+    border-platinum: 2px solid black,
+    font-platinum: 2 rem
+);
+
+#standard {
+    background-color: map-get($map:$perfil-standard,
+    bg-color-standard);
+}
+#plantinum {
+    font-size: map-get($perfil-platinum, font-platinum);
+}
