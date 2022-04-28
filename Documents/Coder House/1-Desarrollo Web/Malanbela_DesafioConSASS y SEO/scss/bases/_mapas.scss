@@ -1,18 +1,10 @@
-$cliente-standard:(
-    bg-color-standard: grey
-    border-stardard: 1px solid black,
-    font-standard: 2 rem
+$fuente:(
+    h1:2em,
+    h2: 1.8em,
+    h3: 1.5em,
+    texto: 18px,
 );
-$cliente-plantinum: (
-    bg-color-platinum: yellow,
-    border-platinum: 2px solid black,
-    font-platinum: 2 rem
-);
-
-#standard {
-    background-color: map-get($map:$perfil-standard,
-    bg-color-standard);
-}
-#plantinum {
-    font-size: map-get($perfil-platinum, font-platinum);
-}
+$h1: map-get($fuente,h1);
+$h2: map-get($fuente,h2);
+$h3: map-get($fuente,h3);
+$texto: map-get($fuente,texto);
